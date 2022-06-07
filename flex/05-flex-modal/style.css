@@ -3,7 +3,7 @@
 html, body {
   height: 100%;
 }
-
+/* didn't change the my answer to the solution */
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  gap: 15px;
+  flex: 0 0 auto;
 }
 
 .icon {
@@ -63,4 +68,14 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
